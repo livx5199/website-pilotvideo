@@ -1,0 +1,33 @@
+header {
+  display: grid;
+  background-image: url(./billeder/splashbillede.jpg);
+  background-size: cover;
+  /* width: 100%; */
+  aspect-ratio: 4032/1688;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  place-items: center start;
+  border-radius: 5px;
+}
+
+#copenhagen {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 8%;
+  margin-left: 2%;
+}
+
+#creatives {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: rgb(245, 50, 252);
+  background-color: black;
+  margin-bottom: 8%;
+}
+
+h1 {
+  font-family: Staatliches;
+  font-size: 2.5rem;
+}
